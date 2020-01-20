@@ -10,14 +10,17 @@ news articles for each execution. The more the data, more is the accuracy of the
 3. Change the line t=open("train.txt","w") to t=open("train.txt","a") to append the
 data. Re run the script multiple times with different from and to dates to get more
 than 200 news articles as offline data.
+
 II. Run the zookeeper server:
 1. Open a terminal. Navigate to kafka directory.
 2. Run the following command to run zookeeper server.
 bin/zookeeper-server-start.sh config/zookeeper.properties
+
 III. Run the Kafka server:
 1. Open a terminal. Navigate to kafka directory.
 2. Run the following command to run kafka server.
 bin/kafka-server-start.sh config/server.properties
+
 IV. Run the program:
 1. Open a terminal
 2. Run the command to open spark shell with Kafka integration.
