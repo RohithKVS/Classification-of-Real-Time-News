@@ -1,5 +1,6 @@
 # Classification-of-Real-Time-News
 Instructions:
+
 I. Collecting the offline data:
 1. Uncomment the following lines
 t=open("train.txt","w")
